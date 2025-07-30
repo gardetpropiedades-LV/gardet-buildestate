@@ -126,11 +126,6 @@
     "node": "18.17.0",
     "npm": "9.6.7"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
   "devDependencies": {
     "concurrently": "^9.0.1"
   },

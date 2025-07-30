@@ -15,6 +15,7 @@ import adminRouter from './routes/adminRoute.js';
 import propertyRoutes from './routes/propertyRoutes.js';
 import getStatusPage from './serverweb.js';
 
+
 dotenv.config();
 
 const app = express();

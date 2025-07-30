@@ -1,5 +1,6 @@
 # BuildEstate - Complete Project Setup Guide
 
+
 <div align="center">
   <img src="./frontend/src/assets/home-regular-24.png" alt="BuildEstate Logo" width="100" />
   <h1>🏢 BuildEstate Real Estate Platform</h1>

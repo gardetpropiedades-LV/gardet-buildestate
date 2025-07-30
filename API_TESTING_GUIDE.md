@@ -2,6 +2,7 @@
 
 This guide provides examples for testing all API endpoints using curl, Postman, or any HTTP client.
 
+
 ## Base URL
 - **Development**: `http://localhost:4000`
 - **Production**: `https://your-deployment-url.com`

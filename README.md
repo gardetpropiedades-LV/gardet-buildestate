@@ -1,5 +1,6 @@
 <div align="center">
   
+  
 ![BuildEstate Banner](https://waveify.onrender.com/api/wave?color=%23667eea&height=150&speed=3&amplitude=25&frequency=2)
 
 ![BuildEstate Typing](https://waveify.onrender.com/api/typing/gradient?text=BuildEstate+-+Next-Gen+Real+Estate+Platform&speed=60&fontSize=32&gradientColors=%23667eea,%23764ba2)

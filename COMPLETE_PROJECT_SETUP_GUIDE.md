@@ -1,5 +1,6 @@
 # 🏠 BuildEstate - Complete Project Setup & Running Guide
 
+
 <div align="center">
   <h1>🏠 BuildEstate</h1>
   <p><em>A comprehensive real estate platform with AI-powered insights, user management, and admin dashboard</em></p>

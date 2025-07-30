@@ -3,6 +3,10 @@ import { Toaster } from "react-hot-toast";
 import { ErrorBoundary } from "react-error-boundary";
 import { motion, AnimatePresence } from "framer-motion";
 
+
+
+
+
 // Context
 import { AuthProvider } from "./contexts/AuthContext";
 
