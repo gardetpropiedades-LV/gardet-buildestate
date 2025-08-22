@@ -1,573 +1,1093 @@
 <div align="center">
-  
-  
-![BuildEstate Banner](https://waveify.onrender.com/api/wave?color=%23667eea&height=150&speed=3&amplitude=25&frequency=2)
 
-![BuildEstate Typing](https://waveify.onrender.com/api/typing/gradient?text=BuildEstate+-+Next-Gen+Real+Estate+Platform&speed=60&fontSize=32&gradientColors=%23667eea,%23764ba2)
+<!-- Hero Banner -->
+<img src="./frontend/src/assets/home-regular-24.png" width="80" height="80" alt="BuildEstate Logo">
 
+# 🏠 BuildEstate
+
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Next-Generation+Real+Estate;AI-Powered+Property+Analysis;Modern+Full-Stack+Platform" alt="Typing SVG" />
+</h3>
+
+<!-- Badges with modern styling -->
 <p align="center">
-  <img src="./frontend/src/assets/home-regular-24.png" alt="BuildEstate Logo" width="80" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License">
+  <img src="https://img.shields.io/badge/Node.js-18+-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/React-18+-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/MongoDB-Latest-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
 </p>
 
-> ### 🏠 **AI-Powered Real Estate Platform** | 🤖 **Smart Property Analysis** | ✨ **Modern UI/UX**
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/TailwindCSS-3+-06B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS">
+  <img src="https://img.shields.io/badge/Docker-Ready-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/AI-Powered-FF6B6B.svg?style=for-the-badge&logo=openai&logoColor=white" alt="AI Powered">
+</p>
 
-![Build Status](https://waveify.onrender.com/api/badge?label=Build&message=Passing&color=green&style=modern)
-![Version](https://waveify.onrender.com/api/badge?label=Version&message=v2.1.0&color=blue&style=gradient)
-![License](https://waveify.onrender.com/api/badge?label=License&message=MIT&color=yellow&style=modern)
-![Coverage](https://waveify.onrender.com/api/badge?label=Coverage&message=98%&color=green&style=neon)
+<!-- Action Buttons -->
+<p align="center">
+  <a href="https://buildestate.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-4285F4?style=for-the-badge&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="./API_TESTING_GUIDE.md">
+    <img src="https://img.shields.io/badge/📚_API_Docs-34A853?style=for-the-badge&logoColor=white" alt="API Docs">
+  </a>
+  <a href="./ADMIN_PANEL_GUIDE.md">
+    <img src="https://img.shields.io/badge/🎯_Admin_Panel-EA4335?style=for-the-badge&logoColor=white" alt="Admin Panel">
+  </a>
+  <a href="./COMPLETE_PROJECT_SETUP_GUIDE.md">
+    <img src="https://img.shields.io/badge/🔧_Setup_Guide-FBBC04?style=for-the-badge&logoColor=black" alt="Setup Guide">
+  </a>
+</p>
 
-[![React](https://waveify.onrender.com/api/badge?label=React&message=18&color=blue&style=gradient)](https://reactjs.org/)
-[![Node.js](https://waveify.onrender.com/api/badge?label=Node.js&message=16%2B&color=green&style=gradient)](https://nodejs.org/)
-[![MongoDB](https://waveify.onrender.com/api/badge?label=MongoDB&message=4.4%2B&color=green&style=gradient)](https://www.mongodb.com/)
-[![TailwindCSS](https://waveify.onrender.com/api/badge?label=TailwindCSS&message=3&color=cyan&style=gradient)](https://tailwindcss.com/)
+<!-- GitHub Stats -->
+<p align="center">
+  <img src="https://img.shields.io/github/stars/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/issues/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=red" alt="GitHub Issues">
+  <img src="https://img.shields.io/github/license/AAYUSH412/Real-Estate-Website?style=for-the-badge&color=green" alt="License">
+</p>
 
-<a href="https://buildestate.vercel.app" target="_blank">![Live Demo](https://waveify.onrender.com/api/badge?label=🚀+LIVE+DEMO&message=Visit+Site&color=purple&style=3d)</a>
-<a href="#%EF%B8%8F-installation">![Setup Guide](https://waveify.onrender.com/api/badge?label=📖+SETUP&message=Installation+Guide&color=blue&style=3d)</a>
-<a href="https://github.com/AAYUSH412/Real-Estate-Website/issues/new">![Report Bug](https://waveify.onrender.com/api/badge?label=🐛+SUPPORT&message=Report+Bug&color=red&style=3d)</a>
-<a href="#-contributing">![Contribute](https://waveify.onrender.com/api/badge?label=👥+COMMUNITY&message=Contribute&color=orange&style=3d)</a>
+<!-- Feature Highlights -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">🤖</td>
+      <td align="center">⚡</td>
+      <td align="center">🔒</td>
+      <td align="center">📱</td>
+    </tr>
+    <tr>
+      <td align="center"><b>AI-Powered</b></td>
+      <td align="center"><b>Lightning Fast</b></td>
+      <td align="center"><b>Secure</b></td>
+      <td align="center"><b>Responsive</b></td>
+    </tr>
+    <tr>
+      <td align="center">Smart property analysis</td>
+      <td align="center">Vite + React 18</td>
+      <td align="center">JWT Authentication</td>
+      <td align="center">Mobile-first design</td>
+    </tr>
+  </table>
+</div>
 
 </div>
 
-![Divider Wave](https://waveify.onrender.com/api/wave/fluid?color=%23667eea&height=120&speed=2&amplitude=20)
+<!-- Divider -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 🌟 Overview
+
+> **BuildEstate** is a cutting-edge, full-stack real estate platform that transforms property discovery and management through AI-powered insights, seamless user experience, and comprehensive administrative tools.
 
 
-<hr>
+<summary><h3>🎯 Key Features</h3></summary>
 
-![Features Header](https://waveify.onrender.com/api/typing/neon?text=✨+KEY+FEATURES&speed=100&color=%2300ff88&fontSize=28)
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        
+### 🔍 **Smart Property Search**
+- AI-enhanced search algorithms
+- Intelligent filtering & recommendations
+- Predictive property matching
+- Real-time market insights
 
-<table>
-  <tr>
-    <td>
-      <h3>🏠 **Premium User Experience**</h3>
-      <ul>
-        <li>🔍 <strong>Advanced Property Search</strong> - Multi-filter system with AI-powered recommendations</li>
-        <li>🖼️ <strong>Virtual Property Tours</strong> - Interactive image galleries with 360° views</li>
-        <li>🔐 <strong>Secure Authentication</strong> - JWT-based authentication with role management</li>
-        <li>📅 <strong>Smart Appointment System</strong> - Real-time scheduling with calendar integration</li>
-        <li>❤️ <strong>Intelligent Favorites</strong> - ML-powered property recommendation system</li>
-        <li>📱 <strong>Responsive Design</strong> - Optimized for all devices and screen sizes</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-07%20at%2011.28.54%E2%80%AFAM.png?updatedAt=1741327229157" alt="User Experience Screenshot" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>🤖 **AI-Powered Analytics**</h3>
-      <ul>
-        <li>🎯 <strong>Smart Recommendations</strong> - Machine learning property matching algorithms</li>
-        <li>📈 <strong>Market Trend Analysis</strong> - Real-time property market insights and forecasting</li>
-        <li>💰 <strong>Investment Intelligence</strong> - ROI predictions and investment opportunity scoring</li>
-        <li>🏘️ <strong>Property Valuation</strong> - AI-driven comparative market analysis (CMA)</li>
-        <li>📊 <strong>Appreciation Forecasts</strong> - Location-based property value predictions</li>
-        <li>📋 <strong>Dynamic Visualization</strong> - Interactive charts and property data analysis</li>
-      </ul>
-    </td>
-    <td>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-11%20at%204.01.34%E2%80%AFPM.png?updatedAt=1741689154739" alt="AI Analysis Dashboard" width="100%" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>👩‍💼 **Professional Admin Dashboard**</h3>
-      <ul>
-        <li>📊 <strong>Advanced Analytics</strong> - Comprehensive reporting with real-time metrics</li>
-        <li>🏢 <strong>Property Management</strong> - Bulk operations and automated workflows</li>
-        <li>📝 <strong>Appointment Tracking</strong> - Complete booking lifecycle management</li>
-        <li>👥 <strong>User Activity Monitoring</strong> - Detailed user behavior analytics</li>
-        <li>📄 <strong>Content Management</strong> - Dynamic content and SEO optimization tools</li>
-        <li>💼 <strong>Sales Performance</strong> - Revenue tracking and performance metrics</li>
-      </ul>
-    </td>
-    <td>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-11%20at%204.01.51%E2%80%AFPM.png?updatedAt=1741689154924" alt="Admin Dashboard Interface" width="100%" />
-    </td>
-  </tr>
-</table>
+### 🤖 **AI Integration**
+- Property valuation analysis
+- Market trend predictions
+- Investment opportunity scoring
+- Automated property descriptions
 
-<details>
-  <summary><h3>🎭 **Immersive Animations & Interactions**</h3></summary>
+### 🔐 **Security & Authentication**
+- JWT-based secure authentication
+- Role-based access control
+- Multi-factor authentication ready
+- Data encryption & privacy
 
-  ![Animation Demo](https://waveify.onrender.com/api/wave/pulse?color=%23845ef7&height=80&speed=2)
+      </td>
+      <td width="50%">
 
-  <p><strong>BuildEstate</strong> features expertly crafted animations powered by <strong>Framer Motion</strong> that enhance user engagement:</p>
+### 📱 **Modern User Experience**
+- Responsive design across all devices
+- Progressive Web App (PWA) ready
+- Dark/Light mode switching
+- Smooth animations & transitions
 
-  <ul>
-    <li>🌊 <strong>Fluid Page Transitions:</strong> Smooth fade and slide transitions between routes with spring physics</li>
-    <li>✨ <strong>Micro-interactions:</strong> Subtle feedback animations for buttons, forms, and interactive elements</li>
-    <li>📜 <strong>Content Reveal Animations:</strong> Staggered animations for property listings and content sections</li>
-    <li>📊 <strong>Data Visualization:</strong> Progressive chart animations with interactive tooltips and hover effects</li>
-    <li>🖼️ <strong>Image Gallery Transitions:</strong> Fluid carousels with zoom capabilities and smooth navigation</li>
-    <li>⏳ <strong>Loading States:</strong> Attractive skeleton loaders and smooth transition states</li>
-    <li>🎨 <strong>Theme Transitions:</strong> Seamless dark/light mode switching with animated color transitions</li>
-  </ul>
+### 📊 **Analytics Dashboard**
+- Real-time property analytics
+- User engagement metrics
+- Revenue tracking & reporting
+- Interactive data visualizations
 
-  <p>All animations are performance-optimized using hardware acceleration and follow Material Design principles for consistent, accessible experiences across all devices.</p>
-</details>
+### 📧 **Communication System**
+- Automated email notifications
+- In-app messaging system
+- Appointment scheduling
+- Lead management tools
 
-![Technology Stack Banner](https://waveify.onrender.com/api/wave/triangle?color=%23ff8cc8&height=100&speed=2&amplitude=15)
+      </td>
+    </tr>
+  </table>
+</div>
 
-![Tech Stack Title](https://waveify.onrender.com/api/typing/gradient?text=TECHNOLOGY+STACK&speed=70&fontSize=26&gradientColors=%23ff6b6b,%234ecdc4)
+
+<!-- Architecture Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 🏗️ System Architecture
 
 <div align="center">
 
-### **Frontend Architecture**
-![React Badge](https://waveify.onrender.com/api/badge?label=React&message=18&color=blue&style=3d)
-![TailwindCSS Badge](https://waveify.onrender.com/api/badge?label=TailwindCSS&message=3.0&color=cyan&style=3d)
-![Framer Motion Badge](https://waveify.onrender.com/api/badge?label=Framer+Motion&message=Latest&color=purple&style=3d)
-![React Router Badge](https://waveify.onrender.com/api/badge?label=React+Router&message=v6&color=red&style=3d)
-![Axios Badge](https://waveify.onrender.com/api/badge?label=Axios&message=HTTP+Client&color=purple&style=3d)
-![Context API Badge](https://waveify.onrender.com/api/badge?label=Context+API&message=State+Mgmt&color=blue&style=3d)
-
-### **Backend Infrastructure**
-![Node.js Badge](https://waveify.onrender.com/api/badge?label=Node.js&message=16%2B&color=green&style=3d)
-![Express Badge](https://waveify.onrender.com/api/badge?label=Express&message=4.x&color=green&style=3d)
-![MongoDB Badge](https://waveify.onrender.com/api/badge?label=MongoDB&message=4.4%2B&color=green&style=3d)
-![JWT Badge](https://waveify.onrender.com/api/badge?label=JWT&message=Auth&color=orange&style=3d)
-![Nodemailer Badge](https://waveify.onrender.com/api/badge?label=Nodemailer&message=Email&color=blue&style=3d)
-![Multer Badge](https://waveify.onrender.com/api/badge?label=Multer&message=File+Upload&color=yellow&style=3d)
-
-### **AI & ML Services**
-![Azure AI Badge](https://waveify.onrender.com/api/badge?label=Azure+AI&message=Cognitive+Services&color=blue&style=gradient)
-![Firecrawl Badge](https://waveify.onrender.com/api/badge?label=Firecrawl&message=Web+Scraping&color=orange&style=gradient)
-![OpenAI Badge](https://waveify.onrender.com/api/badge?label=OpenAI&message=GPT+Integration&color=green&style=gradient)
-![ImageKit Badge](https://waveify.onrender.com/api/badge?label=ImageKit&message=Media+CDN&color=purple&style=gradient)
-
-### **DevOps & Deployment**
-![Docker Badge](https://waveify.onrender.com/api/badge?label=Docker&message=Containerization&color=blue&style=neon)
-![Vercel Badge](https://waveify.onrender.com/api/badge?label=Vercel&message=Frontend+Deploy&color=blue&style=neon)
-![Render Badge](https://waveify.onrender.com/api/badge?label=Render&message=Backend+Deploy&color=purple&style=neon)
-![GitHub Actions Badge](https://waveify.onrender.com/api/badge?label=GitHub+Actions&message=CI%2FCD&color=blue&style=neon)
+```mermaid
+graph TB
+    subgraph "🌐 Frontend Layer"
+        A[User Portal<br/>React 18 + Vite<br/>Port: 5173]
+        B[Admin Dashboard<br/>React 18 + Chart.js<br/>Port: 5174]
+    end
+    
+    subgraph "⚙️ Backend Layer"
+        C[API Server<br/>Express.js + Node.js<br/>Port: 4000]
+        D[AI Services<br/>Azure AI + OpenAI]
+        E[Email Service<br/>Nodemailer + SMTP]
+    end
+    
+    subgraph "💾 Data Layer"
+        F[(MongoDB Atlas<br/>Database)]
+        G[ImageKit CDN<br/>Media Storage]
+    end
+    
+    A --> C
+    B --> C
+    C --> D
+    C --> E
+    C --> F
+    C --> G
+    
+    style A fill:#61DAFB,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#FF6B6B,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#339933,stroke:#333,stroke-width:2px,color:#fff
+    style D fill:#FF9500,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#EA4335,stroke:#333,stroke-width:2px,color:#fff
+    style F fill:#47A248,stroke:#333,stroke-width:2px,color:#fff
+    style G fill:#0066CC,stroke:#333,stroke-width:2px,color:#fff
+```
 
 </div>
 
-![Architecture Divider](https://waveify.onrender.com/api/wave/fluid?color=%234ecdc4&height=80&speed=1.5&amplitude=20)
+### 🔧 Technology Stack
 
-![Project Overview Header](https://waveify.onrender.com/api/typing/neon?text=PROJECT+OVERVIEW&speed=80&color=%2300ffff&fontSize=24)
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>🏷️ Category</th>
+        <th>⚡ Technologies</th>
+        <th>🎯 Purpose</th>
+        <th>📊 Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Frontend</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react" alt="React">
+          <img src="https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite" alt="Vite">
+          <img src="https://img.shields.io/badge/TailwindCSS-3-06B6D4?style=flat-square&logo=tailwindcss" alt="Tailwind">
+        </td>
+        <td>User-facing property portal</td>
+        <td>🟢 Production Ready</td>
+      </tr>
+      <tr>
+        <td><b>Admin Panel</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react" alt="React">
+          <img src="https://img.shields.io/badge/Chart.js-4-FF6384?style=flat-square&logo=chart.js" alt="Chart.js">
+          <img src="https://img.shields.io/badge/TailwindCSS-3-06B6D4?style=flat-square&logo=tailwindcss" alt="Tailwind">
+        </td>
+        <td>Management dashboard</td>
+        <td>🟢 Production Ready</td>
+      </tr>
+      <tr>
+        <td><b>Backend</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/Node.js-18-339933?style=flat-square&logo=node.js" alt="Node.js">
+          <img src="https://img.shields.io/badge/Express-4-000000?style=flat-square&logo=express" alt="Express">
+          <img src="https://img.shields.io/badge/JWT-Auth-000000?style=flat-square&logo=jsonwebtokens" alt="JWT">
+        </td>
+        <td>API server & business logic</td>
+        <td>🟢 Production Ready</td>
+      </tr>
+      <tr>
+        <td><b>Database</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/MongoDB-8.9-47A248?style=flat-square&logo=mongodb" alt="MongoDB">
+          <img src="https://img.shields.io/badge/Mongoose-ODM-880000?style=flat-square" alt="Mongoose">
+        </td>
+        <td>Data persistence & modeling</td>
+        <td>🟢 Production Ready</td>
+      </tr>
+      <tr>
+        <td><b>AI Services</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoft-azure" alt="Azure">
+          <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai" alt="OpenAI">
+          <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface" alt="HuggingFace">
+        </td>
+        <td>Property analysis & insights</td>
+        <td>🟡 Beta</td>
+      </tr>
+      <tr>
+        <td><b>DevOps</b></td>
+        <td>
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker" alt="Docker">
+          <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel" alt="Vercel">
+          <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions" alt="GitHub Actions">
+        </td>
+        <td>Deployment & CI/CD</td>
+        <td>🟢 Active</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-**BuildEstate** is a cutting-edge real estate platform that revolutionizes property discovery and investment decision-making through artificial intelligence. Our platform seamlessly integrates traditional real estate functionalities with advanced machine learning algorithms to provide users with unparalleled insights and recommendations.
+<!-- Quick Start Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
 
-### **🏗️ Architecture Overview**
+## 🚀 Quick Start
 
-The application follows a modern **monorepo architecture** with three distinct, yet interconnected components:
+<div align="center">
+
+### ⚡ One-Command Setup
+
+<img src="https://img.shields.io/badge/Setup_Time-2_minutes-00D4AA?style=for-the-badge&logo=stopwatch&logoColor=white" alt="Setup Time">
+
+</div>
+
+<details>
+<summary><h3>📋 Prerequisites Checklist</h3></summary>
+
+- [ ] **Node.js** 16+ and **npm** 8+ ([Download](https://nodejs.org/))
+- [ ] **MongoDB** Atlas account ([Free Signup](https://www.mongodb.com/cloud/atlas))
+- [ ] **Git** ([Download](https://git-scm.com/))
+- [ ] **ImageKit** account for CDN ([Free Signup](https://imagekit.io/))
+- [ ] **Brevo** SMTP for emails ([Free Signup](https://www.brevo.com/))
+
+</details>
+
+### 🎯 Lightning Fast Setup
+
+```bash
+# 🔥 Clone the repository
+git clone https://github.com/AAYUSH412/Real-Estate-Website.git
+cd Real-Estate-Website
+
+# ⚡ Install all dependencies and start development servers
+npm run setup && npm run dev
+```
+
+<div align="center">
+
+**🎉 That's it! Your development environment is ready!**
 
 <table>
   <tr>
-    <td width="33%">
-      <div align="center">
-        <h4>🌐 <strong>Frontend Application</strong></h4>
-        <p><strong>React 18 + Vite</strong></p>
-        <p>User-facing website featuring property listings, AI-powered search, and immersive virtual tours</p>
-        <p><code>Port: 5173</code></p>
-      </div>
+    <td align="center">
+      <img src="https://img.shields.io/badge/🌐_Frontend-5173-61DAFB?style=for-the-badge" alt="Frontend">
+      <br>
+      <a href="http://localhost:5173">localhost:5173</a>
     </td>
-    <td width="33%">
-      <div align="center">
-        <h4>👩‍💼 <strong>Admin Dashboard</strong></h4>
-        <p><strong>React + TailwindCSS</strong></p>
-        <p>Comprehensive management interface for properties, users, analytics, and content administration</p>
-        <p><code>Port: 5174</code></p>
-      </div>
+    <td align="center">
+      <img src="https://img.shields.io/badge/👨‍💼_Admin-5174-FF6B6B?style=for-the-badge" alt="Admin">
+      <br>
+      <a href="http://localhost:5174">localhost:5174</a>
     </td>
-    <td width="33%">
-      <div align="center">
-        <h4>⚙️ <strong>Backend API</strong></h4>
-        <p><strong>Node.js + Express</strong></p>
-        <p>Robust RESTful API with AI services integration and real-time data processing capabilities</p>
-        <p><code>Port: 4000</code></p>
-      </div>
+    <td align="center">
+      <img src="https://img.shields.io/badge/⚙️_API-4000-339933?style=for-the-badge" alt="API">
+      <br>
+      <a href="http://localhost:4000">localhost:4000</a>
     </td>
   </tr>
 </table>
 
-### **🚀 Key Differentiators**
-
-- **🤖 AI-Powered Intelligence:** Machine learning algorithms provide personalized property recommendations and market insights
-- **📊 Real-Time Market Analysis:** Live data processing for accurate property valuations and trend forecasting
-- **💡 Investment Opportunity Identification:** Advanced algorithms identify high-potential investment properties
-- **✨ Premium User Experience:** Fluid animations and responsive design optimized for all devices
-- **🔒 Enterprise Security:** JWT authentication, rate limiting, and comprehensive data protection
-
-![Technical Divider](https://waveify.onrender.com/api/wave/sawtooth?color=%23ffd43b&height=100&speed=2)
-
-![Getting Started Header](https://waveify.onrender.com/api/typing/matrix?text=GETTING+STARTED&speed=90&fontSize=26&color=%23ff6b6b)
-
-### **📋 System Requirements**
-
-![Terminal Demo](https://waveify.onrender.com/api/terminal/modern?commands=%5B%22node%20--version%22%2C%20%22npm%20--version%22%2C%20%22mongod%20--version%22%5D&theme=modern&width=600&height=220)
-
-- **Node.js**: v16.0.0 or higher (LTS recommended)
-- **Package Manager**: npm v8+ or yarn v1.22+
-- **Database**: MongoDB v4.4+ (local installation or MongoDB Atlas)
-- **API Keys**: Azure AI, Firecrawl, OpenAI (for full AI functionality)
-- **Storage**: Minimum 1GB free disk space
-- **Memory**: 4GB RAM recommended for optimal development experience
-
-### **⚙️ Installation Guide**
+</div>
 
 <details>
-<summary><b>📦 Step 1: Repository Setup</b></summary>
-
-![Git Clone Demo](https://waveify.onrender.com/api/terminal/github-dark?commands=[%22git%20clone%20https://github.com/AAYUSH412/Real-Estate-Website.git%22,%20%22cd%20Real-Estate-Website%22,%20%22ls%20-la%22]&width=700&height=450)
+<summary><h3>🔧 Manual Setup (Advanced)</h3></summary>
 
 ```bash
-git clone https://github.com/AAYUSH412/Real-Estate-Website.git
-cd Real-Estate-Website
-```
-</details>
+# Backend setup
+cd backend
+npm install
+cp .env.example .env.local
+# Configure your .env.local file (see configuration section)
+npm run dev
 
-<details>
-<summary><b>🔧 Step 2: Environment Configuration</b></summary>
+# Frontend setup (new terminal)
+cd frontend
+npm install
+npm run dev
 
-Create the following environment files with the specified variables:
-
-**Backend Environment (`.env`)**
-```env
-# Server Configuration
-PORT=4000
-NODE_ENV=development
-
-# Database
-MONGODB_URI=your_mongodb_connection_string
-
-# Authentication
-JWT_SECRET=your_super_secure_jwt_secret_key
-
-# Email Configuration
-EMAIL=your_notification_email@domain.com
-PASSWORD=your_email_app_password
-
-# AI Services
-AZURE_API_KEY=your_azure_ai_api_key
-FIRECRAWL_API_KEY=your_firecrawl_api_key
-OPENAI_API_KEY=your_openai_api_key
-
-# Media Management
-IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
-
-# Security
-RATE_LIMIT_WINDOW_MS=900000
-RATE_LIMIT_MAX_REQUESTS=100
-```
-
-**Frontend Environment (`.env.local`)**
-```env
-VITE_API_BASE_URL=http://localhost:4000
-VITE_APP_NAME=BuildEstate
-VITE_APP_VERSION=2.1.0
-```
-
-**Admin Environment (`.env.local`)**
-```env
-VITE_BACKEND_URL=http://localhost:4000
-VITE_ADMIN_APP_NAME=BuildEstate Admin
-```
-
-> **💡 Development Tip:** For testing without AI services, you can use dummy API keys. Core functionality will work with mock data for AI features.
-</details>
-
-<details>
-<summary><b>📚 Step 3: Dependencies Installation</b></summary>
-
-![NPM Install Demo](https://waveify.onrender.com/api/terminal/modern?commands=%5B%22npm%20run%20setup%22%2C%20%22echo%20%27%E2%9C%85%20All%20dependencies%20installed%21%27%22%5D&theme=modern&width=600&height=200)
-
-**Option A: One-Command Setup (Recommended)**
-```bash
-# Install all dependencies across all workspaces
-npm run setup
-```
-
-**Option B: Manual Installation**
-```bash
-# Install backend dependencies
-cd backend && npm install
-
-# Install frontend dependencies
-cd ../frontend && npm install
-
-# Install admin dependencies
-cd ../admin && npm install
-
-# Return to root directory
-cd ..
-```
-</details>
-
-<details>
-<summary><b>🚀 Step 4: Development Server Launch</b></summary>
-
-![Development Servers](https://waveify.onrender.com/api/terminal/github-dark?commands=%5B%22npm%20run%20dev%22%2C%20%22echo%20%27Frontend%3A%20http%3A//localhost%3A5173%27%22%2C%20%22echo%20%27Admin%3A%20http%3A//localhost%3A5174%27%22%2C%20%22echo%20%27API%3A%20http%3A//localhost%3A4000%27%22%5D&width=700&height=380)
-
-**Concurrent Development (Recommended)**
-```bash
-# Start all services simultaneously
+# Admin panel setup (new terminal)
+cd admin
+npm install
 npm run dev
 ```
 
-**Individual Service Launch**
-```bash
-# Backend API Server
-cd backend && npm run dev
-
-# Frontend Application
-cd frontend && npm run dev
-
-# Admin Dashboard
-cd admin && npm run dev
-```
-
-**📍 Access Points:**
-- 🌐 **Frontend Application**: http://localhost:5173
-- 👩‍💼 **Admin Dashboard**: http://localhost:5174
-- ⚙️ **Backend API**: http://localhost:4000
-- 📖 **API Documentation**: http://localhost:4000/api-docs
 </details>
 
-![Installation Divider](https://waveify.onrender.com/api/wave/pulse?color=%23845ef7&height=90&speed=2)
-
-![Feature Highlights Header](https://waveify.onrender.com/api/typing/gradient?text=FEATURE+HIGHLIGHTS&speed=80&fontSize=24&gradientColors=%23ff6b6b,%234ecdc4)
-
+<!-- Configuration Section -->
 <div align="center">
-
-![Properties](https://waveify.onrender.com/api/badge?label=🏠+PROPERTIES&message=5000%2B&color=green&style=3d)
-![Users](https://waveify.onrender.com/api/badge?label=👥+ACTIVE+USERS&message=10%2C000%2B&color=blue&style=3d)
-![Cities](https://waveify.onrender.com/api/badge?label=🌆+CITIES&message=25%2B&color=yellow&style=3d)
-![AI Accuracy](https://waveify.onrender.com/api/badge?label=🤖+AI+ACCURACY&message=94%25&color=purple&style=3d)
-
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-### **🔍 Advanced Property Search & Discovery**
-
-BuildEstate offers an intelligent property discovery system powered by machine learning algorithms:
-
-- **🗺️ Geospatial Search Integration** - Interactive map-based property discovery with location intelligence
-- **💰 Dynamic Price Analysis** - Real-time market comparison with historical price trends
-- **🏘️ Smart Property Categorization** - AI-powered classification (apartments, houses, villas, commercial)
-- **⭐ Intelligent Amenity Filtering** - 20+ property features with preference learning
-- **📝 Saved Search Profiles** - ML-enhanced search preferences for registered users
-- **🔔 Real-time Alerts** - Instant notifications for new matching properties
-
-### **🤖 AI-Powered Market Intelligence**
+## 🔧 Configuration
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AAYUSH412&theme=react-dark&hide_border=true&area=true" width="85%" />
+  <img src="https://img.shields.io/badge/Configuration-Easy_Setup-4CAF50?style=for-the-badge&logo=gear&logoColor=white" alt="Easy Configuration">
 </div>
 
-Our advanced AI system provides comprehensive market analysis using multiple data sources:
+<details open>
+<summary><h3>🌍 Environment Variables</h3></summary>
 
-- **📈 Predictive Price Forecasting** - ML models analyzing 5+ years of historical data
-- **💹 Rental Yield Calculations** - ROI predictions based on market trends and comparable properties
-- **🎯 Investment Scoring Algorithm** - Proprietary scoring system rating investment potential (1-100)
-- **🏘️ Neighborhood Intelligence** - Comparative analysis across 15+ lifestyle and economic metrics
-- **🎨 Personalized Recommendations** - Deep learning algorithms providing tailored property suggestions
-- **📊 Interactive Data Visualization** - Real-time charts with smooth animations and drill-down capabilities
+Each application requires environment configuration. Here's a quick reference:
 
-All visualizations feature **performance-optimized animations** and responsive design for seamless cross-device experience.
+<div align="center">
+  <table>
+    <tr>
+      <th width="33%">🔧 Backend (.env.local)</th>
+      <th width="33%">🌐 Frontend (.env.local)</th>
+      <th width="33%">👨‍💼 Admin (.env.local)</th>
+    </tr>
+    <tr>
+      <td valign="top">
 
-![Analytics Divider](https://waveify.onrender.com/api/wave/glitch?color=%23fa5252&height=80&speed=1.5)
+```env
+# 🗄️ Database
+MONGO_URI=your_mongodb_connection
 
-![Screenshots Header](https://waveify.onrender.com/api/typing/neon?text=APPLICATION+SHOWCASE&speed=90&color=%2300ff88&fontSize=24)
+# 🔐 Security
+JWT_SECRET=your_jwt_secret
 
-<table>
-  <tr>
-    <td align="center">
-      <h4>🏠 **Home Page Experience**</h4>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-07%20at%2011.28.47%E2%80%AFAM.png?updatedAt=1741327228785" alt="BuildEstate Home Page - Modern landing page with animated hero section" width="100%" />
-      <p><em>Modern landing page with animated hero section and property highlights</em></p>
-    </td>
-    <td align="center">
-      <h4>📋 **Property Listings**</h4>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-07%20at%2011.28.54%E2%80%AFAM.png?updatedAt=1741327229157" alt="Property Listings - Advanced filtering and search interface" width="100%" />
-      <p><em>Advanced filtering with ML-powered search suggestions</em></p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <h4>🏘️ **Property Details**</h4>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-07%20at%2011.29.18%E2%80%AFAM.png?updatedAt=1741327228975" alt="Property Details - Comprehensive property information with virtual tour" width="100%" />
-      <p><em>Immersive property details with virtual tour capabilities</em></p>
-    </td>
-    <td align="center">
-      <h4>🤖 **AI Market Analysis**</h4>
-      <img src="https://ik.imagekit.io/xh3awoalr/Property/github/Screenshot%202025-03-11%20at%204.01.34%E2%80%AFPM.png?updatedAt=1741689154739" alt="AI Market Analysis - Real-time analytics and investment insights" width="100%" />
-      <p><em>Real-time market analytics with investment insights</em></p>
-    </td>
-  </tr>
+# 📧 Email Service
+SMTP_USER=your_smtp_user
+SMTP_PASS=your_smtp_password
+
+# 🖼️ Image Storage
+IMAGEKIT_PUBLIC_KEY=your_key
+IMAGEKIT_PRIVATE_KEY=your_key
+IMAGEKIT_URL_ENDPOINT=your_url
+
+# 🤖 AI Services (Optional)
+HUGGINGFACE_API_KEY=your_key
+OPENROUTER_API_KEY=your_key
+FIRECRAWL_API_KEY=your_key
+```
+
+</td>
+<td valign="top">
+
+```env
+# 🌐 API Configuration
+VITE_API_BASE_URL=http://localhost:4000
+
+# 🏷️ App Settings
+VITE_APP_NAME=BuildEstate
+
+# 🎨 Customization
+VITE_THEME_COLOR=#3B82F6
+VITE_BRAND_NAME=BuildEstate
+```
+
+</td>
+<td valign="top">
+
+```env
+# 🔗 Backend Connection
+VITE_BACKEND_URL=http://localhost:4000
+
+# 👨‍💼 Admin Settings
+VITE_ADMIN_EMAIL=admin@buildestate.com
+VITE_ADMIN_NAME=BuildEstate Admin
+```
+
+</td>
+</tr>
 </table>
+</div>
 
-![Mobile Responsive Demo](https://waveify.onrender.com/api/wave/sine?color=%23ff6b6b&height=70&speed=2.5)
+> 📖 **Need detailed configuration?** Check our [Complete Setup Guide](./COMPLETE_PROJECT_SETUP_GUIDE.md) for comprehensive environment setup with examples.
 
-![Project Activity Header](https://waveify.onrender.com/api/typing/matrix?text=PROJECT+ACTIVITY+STATS&speed=80&fontSize=24&color=%23ff8cc8)
+</details>
+
+<details>
+<summary><h3>🛠️ Service Setup Guides</h3></summary>
 
 <div align="center">
-  <a href="https://github.com/AAYUSH412/Real-Estate-Website">
-    <img src="https://streak-stats.demolab.com?user=AAYUSH412&theme=transparent&hide_border=true&mode=weekly&fire=3B82F6&stroke=3B82F6&ring=3B82F6&currStreak=3B82F6&sideLabels=3B82F6&dates=6B7280&currStreakLabel=3B82F6&sideNums=3B82F6" alt="GitHub Development Streak" width="80%" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+        <br>
+        <a href="https://www.mongodb.com/cloud/atlas">Free Atlas Setup</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/ImageKit-0066CC?style=for-the-badge&logo=imagekit&logoColor=white" alt="ImageKit">
+        <br>
+        <a href="https://imagekit.io/">Free CDN Setup</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Brevo-0052CC?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Brevo">
+        <br>
+        <a href="https://www.brevo.com/">Free SMTP Setup</a>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+        <br>
+        <a href="https://platform.openai.com/">AI Services</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</details>
+
+<!-- Applications Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 📱 Applications Overview
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microservices&logoColor=white" alt="Microservices">
 </div>
 
 <div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        
+### 🌐 Frontend Portal
+        
+<img src="https://img.shields.io/badge/Port-5173-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="Frontend Port">
 
-![Commits](https://waveify.onrender.com/api/badge?label=📝+Total+Commits&message=500%2B&color=blue&style=gradient)
-![Pull Requests](https://waveify.onrender.com/api/badge?label=🔄+Pull+Requests&message=85&color=green&style=gradient)
-![Issues Resolved](https://waveify.onrender.com/api/badge?label=✅+Issues+Resolved&message=120&color=purple&style=gradient)
-![Code Quality](https://waveify.onrender.com/api/badge?label=📊+Code+Quality&message=A%2B&color=yellow&style=gradient)
+**Modern Property Discovery Platform**
 
-</div>
+- 🏠 Interactive property browsing
+- 🔍 AI-powered search & filtering  
+- 👤 User authentication & profiles
+- 📅 Appointment booking system
+- 🎨 Progressive Web App (PWA)
+- 📱 Mobile-first responsive design
+- ⚡ SEO optimized with structured data
+        
+<a href="http://localhost:5173">
+  <img src="https://img.shields.io/badge/View_Live-4285F4?style=for-the-badge&logoColor=white" alt="View Frontend">
+</a>
+</td>
+<td width="33%" align="center">
+        
+### 👨‍💼 Admin Dashboard
+        
+<img src="https://img.shields.io/badge/Port-5174-FF6B6B?style=for-the-badge&logo=react&logoColor=white" alt="Admin Port">
 
+**Comprehensive Management Hub**
 
-![Activity Divider](https://waveify.onrender.com/api/wave/triangle?color=%23ff8cc8&height=70&speed=3)
+- 📊 Real-time analytics dashboard
+- 🏠 Property management (CRUD)
+- 👥 User & appointment management  
+- 📈 Interactive charts & reports
+- 🔧 System configuration tools
+- 📤 Bulk operations & data export
+- 🎯 Role-based access control
+        
+<a href="http://localhost:5174">
+  <img src="https://img.shields.io/badge/Admin_Panel-EA4335?style=for-the-badge&logoColor=white" alt="View Admin">
+</a>
 
-![Contributing Header](https://waveify.onrender.com/api/typing/gradient?text=CONTRIBUTING+TO+BUILDESTATE&speed=70&fontSize=22&gradientColors=%23667eea,%23764ba2)
+</td>
+<td width="33%" align="center">
+        
+### ⚙️ API Server
+        
+<img src="https://img.shields.io/badge/Port-4000-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend Port">
 
-We warmly welcome contributions from developers of all experience levels! BuildEstate thrives on community collaboration and innovation.
+**Robust Backend Infrastructure**
 
-### **🚀 Quick Contribution Guide**
+- 🚀 RESTful API with 50+ endpoints
+- 🔐 JWT authentication system
+- 🤖 AI service integrations
+- 📧 Email notification system  
+- 🖼️ Image upload & processing
+- 🛡️ Security & rate limiting
+- 📊 Request logging & monitoring
+        
+<a href="http://localhost:4000">
+  <img src="https://img.shields.io/badge/API_Docs-34A853?style=for-the-badge&logoColor=white" alt="View API">
+</a>
 
-<div align="center">
-
-![Fork](https://waveify.onrender.com/api/badge?label=1.+FORK&message=Repository&color=blue&style=3d)
-![Branch](https://waveify.onrender.com/api/badge?label=2.+BRANCH&message=Create+Feature&color=green&style=3d)
-![Code](https://waveify.onrender.com/api/badge?label=3.+CODE&message=Make+Changes&color=purple&style=3d)
-![Test](https://waveify.onrender.com/api/badge?label=4.+TEST&message=Run+Tests&color=orange&style=3d)
-![PR](https://waveify.onrender.com/api/badge?label=5.+SUBMIT&message=Pull+Request&color=red&style=3d)
-
-</div>
-
-1. **🍴 Fork the repository** and star ⭐ the project
-2. **🌿 Create a feature branch:**
-   ```bash
-   git checkout -b feature/amazing-new-feature
-   ```
-3. **✨ Make your changes** following our coding standards
-4. **🧪 Run comprehensive tests:**
-   ```bash
-   npm run test:all
-   npm run lint:check
-   npm run type:check
-   ```
-5. **📝 Commit with conventional format:**
-   ```bash
-   git commit -m 'feat: add amazing new feature'
-   ```
-6. **🚀 Push to your branch:**
-   ```bash
-   git push origin feature/amazing-new-feature
-   ```
-7. **🔄 Open a detailed pull request**
-
-### **📖 Development Standards**
-
-<table>
-  <tr>
-    <td width="50%">
-      <h4>🎨 **Code Style & Quality**</h4>
-      <ul>
-        <li>✅ ESLint + Prettier for consistent formatting</li>
-        <li>🏗️ Component-based React architecture</li>
-        <li>📱 Mobile-first responsive design principles</li>
-        <li>♿ WCAG 2.1 accessibility compliance</li>
-        <li>🎭 Framer Motion animation standards</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h4>🧪 **Testing & Documentation**</h4>
-      <ul>
-        <li>🔬 Jest + React Testing Library for unit tests</li>
-        <li>🌐 Cypress for end-to-end testing</li>
-        <li>📚 JSDoc documentation for all functions</li>
-        <li>📖 Comprehensive README updates</li>
-        <li>🔍 Code review checklist compliance</li>
-      </ul>
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
+</div>
 
-### **🌟 Contribution Areas**
+### 🔧 Tech Stack Breakdown
 
-- **🐛 Bug Fixes:** Help us maintain a stable platform
-- **✨ New Features:** Implement exciting functionality
-- **📖 Documentation:** Improve guides and API docs
-- **🎨 UI/UX:** Enhance user experience and design
-- **🧪 Testing:** Increase test coverage and reliability
-- **🔧 DevOps:** Improve deployment and CI/CD processes
+<details>
+<summary><h4>🌐 Frontend Technologies</h4></summary>
 
-Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) for detailed information.
+```
+React 18          → Modern component-based architecture
+Vite             → Lightning-fast build tool & dev server  
+TailwindCSS      → Utility-first CSS framework
+Framer Motion    → Smooth animations & transitions
+React Router v7  → Client-side navigation
+Axios            → HTTP client for API calls
+React Context    → Global state management
+React Helmet     → SEO meta tag management
+```
 
-![Contributing Divider](https://waveify.onrender.com/api/wave/pulse?color=%23845ef7&height=80&speed=2)
+</details>
 
-![License Header](https://waveify.onrender.com/api/typing/gradient?text=LICENSE+LEGAL&speed=100&color=%2300ffff&fontSize=20)
+<details>
+<summary><h4>👨‍💼 Admin Panel Technologies</h4></summary>
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
+```
+React 18         → Component-based UI framework
+Chart.js         → Interactive data visualizations
+TailwindCSS      → Consistent design system
+Flowbite React   → UI component library
+React Hot Toast  → Notification system
+Lucide React     → Modern icon library
+Framer Motion    → Smooth page transitions
+```
 
-![MIT License](https://waveify.onrender.com/api/badge?label=📄+License&message=MIT&color=green&style=gradient)
-![Open Source](https://waveify.onrender.com/api/badge?label=💝+Open+Source&message=Community+Driven&color=red&style=gradient)
-![Free Commercial Use](https://waveify.onrender.com/api/badge?label=💼+Commercial+Use&message=Permitted&color=blue&style=gradient)
+</details>
+
+<details>
+<summary><h4>⚙️ Backend Technologies</h4></summary>
+
+```
+Node.js 18+      → JavaScript runtime environment
+Express.js       → Web application framework
+MongoDB          → NoSQL document database
+Mongoose         → ODM for MongoDB
+JWT              → JSON Web Token authentication
+Bcrypt           → Password hashing
+Multer           → File upload middleware
+Nodemailer       → Email delivery system
+Helmet           → Security headers
+CORS             → Cross-origin resource sharing
+```
+
+</details>
+
+<!-- Development Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 🛠️ Development
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Developer-Friendly-00D4AA?style=for-the-badge&logo=code&logoColor=white" alt="Developer Friendly">
+</div>
+
+<details open>
+<summary><h3>🚀 Available Scripts</h3></summary>
+
+<div align="center">
+  <table>
+    <tr>
+      <th width="25%">🔥 Development</th>
+      <th width="25%">🏗️ Building</th>
+      <th width="25%">🧹 Maintenance</th>
+      <th width="25%">🐳 Docker</th>
+    </tr>
+    <tr>
+      <td valign="top">
+
+```bash
+# Start all services
+npm run dev
+
+# Individual services
+npm run dev:backend
+npm run dev:frontend  
+npm run dev:admin
+
+# Quick setup
+npm run setup
+```
+
+</td>
+<td valign="top">
+
+```bash
+# Build all apps
+npm run build
+
+# Individual builds
+npm run build:backend
+npm run build:frontend
+npm run build:admin
+
+# Production start
+npm run start:prod
+```
+
+</td>
+<td valign="top">
+
+```bash
+# Lint all code
+npm run lint
+npm run lint:fix
+
+# Clean installs
+npm run clean
+npm run clean:build
+
+# Health checks
+npm run health
+```
+
+</td>
+<td valign="top">
+
+```bash
+# Docker operations
+npm run docker:build
+npm run docker:up
+npm run docker:down
+
+# View logs
+npm run docker:logs
+```
+
+</td>
+</tr>
+</table>
+</div>
+
+</details>
+
+<details>
+<summary><h3>🎯 Development Workflow</h3></summary>
+
+```mermaid
+gitGraph
+    commit id: "Initial Setup"
+    branch feature/new-feature
+    checkout feature/new-feature
+    commit id: "Add Feature"
+    commit id: "Write Tests"
+    commit id: "Update Docs"
+    checkout main
+    merge feature/new-feature
+    commit id: "Deploy to Production"
+```
+
+**Step-by-step process:**
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. ✍️ **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. 📤 **Push** to the branch (`git push origin feature/amazing-feature`)  
+5. 🔀 **Open** a Pull Request
+
+</details>
+
+<details>
+<summary><h3>📋 Code Standards</h3></summary>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint">
+        <br>
+        <b>Code Quality</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier">
+        <br>
+        <b>Code Formatting</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Conventional-Commits-FE5196?style=for-the-badge&logo=conventionalcommits&logoColor=white" alt="Conventional Commits">
+        <br>
+        <b>Commit Messages</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+        <br>
+        <b>Type Safety</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Commit Message Format:**
+```
+type(scope): description
+
+Examples:
+feat(frontend): add property search filters
+fix(backend): resolve authentication issue
+docs(readme): update installation guide
+```
+
+</details>
+
+<!-- Documentation Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 📚 Documentation Hub
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Documentation-Comprehensive-4CAF50?style=for-the-badge&logo=gitbook&logoColor=white" alt="Documentation">
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/📖_Setup_Guide-Complete-4285F4?style=for-the-badge" alt="Setup Guide">
+        <br>
+        <a href="./COMPLETE_PROJECT_SETUP_GUIDE.md"><b>Complete Setup Guide</b></a>
+        <br>
+        <small>Comprehensive installation & configuration</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/🎯_Admin_Panel-Guide-EA4335?style=for-the-badge" alt="Admin Guide">
+        <br>
+        <a href="./ADMIN_PANEL_GUIDE.md"><b>Admin Panel Guide</b></a>
+        <br>
+        <small>Dashboard usage & management features</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/📡_API_Docs-Reference-34A853?style=for-the-badge" alt="API Docs">
+        <br>
+        <a href="./API_TESTING_GUIDE.md"><b>API Documentation</b></a>
+        <br>
+        <small>Complete API reference & testing</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/⚙️_Backend-Architecture-FF9500?style=for-the-badge" alt="Backend Docs">
+        <br>
+        <a href="./BACKEND_DOCUMENTATION.md"><b>Backend Documentation</b></a>
+        <br>
+        <small>Architecture & deployment guide</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 📋 Quick Reference Guides
+
+<details>
+<summary><h4>🚀 Deployment Options</h4></summary>
+
+<div align="center">
+  <table>
+    <tr>
+      <th>Platform</th>
+      <th>Frontend</th>
+      <th>Admin Panel</th>
+      <th>Backend</th>
+      <th>Database</th>
+    </tr>
+    <tr>
+      <td><b>🟢 Recommended</b></td>
+      <td>Vercel</td>
+      <td>Vercel</td>
+      <td>Railway/Render</td>
+      <td>MongoDB Atlas</td>
+    </tr>
+    <tr>
+      <td><b>🟡 Alternative</b></td>
+      <td>Netlify</td>
+      <td>Netlify</td>
+      <td>Heroku</td>
+      <td>Local MongoDB</td>
+    </tr>
+    <tr>
+      <td><b>🐳 Docker</b></td>
+      <td colspan="4">Self-hosted with Docker Compose</td>
+    </tr>
+  </table>
+</div>
+
+**Quick Deploy Commands:**
+
+```bash
+# Frontend to Vercel
+cd frontend && vercel --prod
+
+# Admin Panel to Vercel  
+cd admin && vercel --prod
+
+# Backend to Railway
+# Connect your GitHub repository to Railway
+```
+
+</details>
+
+<details>
+<summary><h4>🔧 Environment Setup Templates</h4></summary>
+
+**Backend Environment Template:**
+```bash
+# Core Configuration
+NODE_ENV=production
+PORT=4000
+MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/buildestate
+
+# Authentication
+JWT_SECRET=your-super-secure-jwt-secret-key-minimum-32-characters
+
+# Email Service (Brevo)
+SMTP_USER=your-email@smtp-brevo.com
+SMTP_PASS=your-smtp-password
+
+# Image Storage (ImageKit)
+IMAGEKIT_PUBLIC_KEY=public_your_key_here
+IMAGEKIT_PRIVATE_KEY=private_your_key_here
+IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/your_id/
+
+# AI Services (Optional)
+HUGGINGFACE_API_KEY=hf_your_key_here
+OPENROUTER_API_KEY=sk-or-v1-your_key_here
+```
+
+</details>
+
+<!-- Contributing Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 🤝 Contributing
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Contributors-Welcome-FF69B4?style=for-the-badge&logo=github&logoColor=white" alt="Contributors Welcome">
+  <img src="https://img.shields.io/badge/First_Timers-Friendly-00D4AA?style=for-the-badge&logo=heart&logoColor=white" alt="First Timers Friendly">
+</div>
+
+We love contributions! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for details.
+
+<details>
+<summary><h3>🌟 Ways to Contribute</h3></summary>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/🐛_Bug_Reports-EA4335?style=for-the-badge" alt="Bug Reports">
+        <br>
+        <b>Report Issues</b>
+        <br>
+        <small>Found a bug? Let us know!</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/✨_Feature_Requests-4285F4?style=for-the-badge" alt="Feature Requests">
+        <br>
+        <b>Suggest Features</b>
+        <br>
+        <small>Have an idea? Share it!</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/📖_Documentation-34A853?style=for-the-badge" alt="Documentation">
+        <br>
+        <b>Improve Docs</b>
+        <br>
+        <small>Help others understand</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/💻_Code_Contributions-FF9500?style=for-the-badge" alt="Code">
+        <br>
+        <b>Write Code</b>
+        <br>
+        <small>Build awesome features</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</details>
+
+<details>
+<summary><h3>🚀 Quick Contribution Guide</h3></summary>
+
+1. **🍴 Fork** the repository
+2. **📋 Create** an issue (if one doesn't exist)
+3. **🌿 Create** your feature branch:
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+4. **✍️ Commit** your changes:
+   ```bash
+   git commit -m 'feat: add amazing feature'
+   ```
+5. **📤 Push** to your branch:
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+6. **🔀 Submit** a Pull Request
+
+</details>
+
+<details>
+<summary><h3>🏆 Hall of Fame</h3></summary>
+
+<div align="center">
+
+**Thanks to all contributors who have made BuildEstate better! 🎉**
+
+<a href="https://github.com/AAYUSH412/Real-Estate-Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AAYUSH412/Real-Estate-Website" alt="Contributors">
+</a>
+
+*Become a contributor and see your avatar here!*
+
+</div>
+
+</details>
 
 ---
 
-![Acknowledgements Header](https://waveify.onrender.com/api/typing/gradient?text=ACKNOWLEDGEMENTS+CREDITS&speed=80&fontSize=20&gradientColors=%23ff6b6b,%234ecdc4)
+<!-- Footer Section -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+## 📄 License & Author
 
 <div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        
+### � License
+        
+This project is licensed under the **MIT License**
+        
+<a href="./LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
+</a>
+        
+*Feel free to use, modify, and distribute*
 
-### **🙏 Powered By Amazing Technologies**
+</td>
+      <td align="center" width="50%">
+        
+### 👨‍💻 Author
+        
+**Aayush Vaghela**
+        
+<a href="https://github.com/AAYUSH412">
+  <img src="https://img.shields.io/badge/GitHub-AAYUSH412-181717?style=for-the-badge&logo=github" alt="GitHub">
+</a>
+        
+<a href="mailto:aayushvaghela12@gmail.com">
+  <img src="https://img.shields.io/badge/Email-aayushvaghela12@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
-[![React](https://waveify.onrender.com/api/badge?label=React&message=Frontend+Framework&color=blue&style=3d)](https://reactjs.org/)
-[![Express](https://waveify.onrender.com/api/badge?label=Express&message=Backend+Framework&color=green&style=3d)](https://expressjs.com/)
-[![MongoDB](https://waveify.onrender.com/api/badge?label=MongoDB&message=Database&color=green&style=3d)](https://www.mongodb.com/)
-[![TailwindCSS](https://waveify.onrender.com/api/badge?label=TailwindCSS&message=Styling&color=cyan&style=3d)](https://tailwindcss.com/)
-
-[![Framer Motion](https://waveify.onrender.com/api/badge?label=Framer+Motion&message=Animations&color=purple&style=3d)](https://www.framer.com/motion/)
-[![Azure AI](https://waveify.onrender.com/api/badge?label=Azure+AI&message=Machine+Learning&color=blue&style=3d)](https://azure.microsoft.com/en-us/services/cognitive-services/)
-[![Vercel](https://waveify.onrender.com/api/badge?label=Vercel&message=Deployment&color=black&style=3d)](https://vercel.com/)
-[![Waveify](https://waveify.onrender.com/api/badge?label=Waveify&message=SVG+Animations&color=purple&style=3d)](https://waveipfy.vercel.app/)
-
-**Special appreciation to:**
-- 🎨 **Waveify Team** for the beautiful SVG animation APIs
-- 🌐 **Open Source Community** for the incredible libraries and tools
-- 👥 **Contributors** who make BuildEstate better every day
-- 🤖 **AI/ML Research Community** for advancing property intelligence
-
+</td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-![Contact Header](https://waveify.onrender.com/api/wave/fluid?color=%2339d0d8&height=100&speed=1.5&amplitude=25)
-
-![Contact Title](https://waveify.onrender.com/api/typing/gradient?text=CONTACT+SUPPORT&speed=90&color=%2300ff88&fontSize=22)
+## 🙏 Acknowledgments
 
 <div align="center">
-
-### **🤝 Get In Touch**
-
-[![GitHub Profile](https://waveify.onrender.com/api/badge?label=👨‍💻+GitHub&message=AAYUSH412&color=black&style=3d)](https://github.com/AAYUSH412)
-[![Email Contact](https://waveify.onrender.com/api/badge?label=✉️+Email&message=aayushvaghela12%40gmail.com&color=red&style=3d)](mailto:aayushvaghela12@gmail.com)
-[![LinkedIn](https://waveify.onrender.com/api/badge?label=💼+LinkedIn&message=Connect&color=blue&style=3d)](https://linkedin.com/in/aayush-vaghela)
-
-### **🆘 Need Help?**
-
-[![Bug Report](https://waveify.onrender.com/api/badge?label=🐛+Bug+Reports&message=GitHub+Issues&color=red&style=gradient)](https://github.com/AAYUSH412/Real-Estate-Website/issues)
-[![Feature Request](https://waveify.onrender.com/api/badge?label=💡+Feature+Requests&message=Discussions&color=green&style=gradient)](https://github.com/AAYUSH412/Real-Estate-Website/discussions)
-[![Documentation](https://waveify.onrender.com/api/badge?label=📖+Documentation&message=Wiki+Guides&color=blue&style=gradient)](https://github.com/AAYUSH412/Real-Estate-Website/wiki)
-
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Open_Source-Community-FF69B4?style=for-the-badge&logo=opensource&logoColor=white" alt="Open Source">
+        <br>
+        <b>Open Source Community</b>
+        <br>
+        <small>For amazing tools & libraries</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Contributors-Heroes-00D4AA?style=for-the-badge&logo=github&logoColor=white" alt="Contributors">
+        <br>
+        <b>All Contributors</b>
+        <br>
+        <small>For making this project better</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Modern_Tech-Stack-4285F4?style=for-the-badge&logo=react&logoColor=white" alt="Tech Stack">
+        <br>
+        <b>Modern Technologies</b>
+        <br>
+        <small>React, Node.js, MongoDB & more</small>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://img.shields.io/badge/Best_Practices-Followed-34A853?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Best Practices">
+        <br>
+        <b>Industry Standards</b>
+        <br>
+        <small>Security, performance & accessibility</small>
+      </td>
+    </tr>
+  </table>
 </div>
 
-![Footer Wave](https://waveify.onrender.com/api/wave?color=%23667eea&height=120&speed=2&amplitude=20&frequency=3)
+---
+
+<!-- Call to Action -->
+<div align="center">
+  
+### ⭐ **If you find BuildEstate helpful, please give it a star!** ⭐
+
+<a href="https://github.com/AAYUSH412/Real-Estate-Website">
+  <img src="https://img.shields.io/github/stars/AAYUSH412/Real-Estate-Website?style=for-the-badge&logo=github&color=FFD700" alt="GitHub Stars">
+</a>
+
+**Your support motivates us to keep building awesome features! 🚀**
 
 <div align="center">
-  <p>
-    <img src="./frontend/src/assets/home-regular-24.png" alt="BuildEstate Logo" width="40" />
-  </p>
-  
-![Made with Love](https://waveify.onrender.com/api/badge?label=Made+with&message=❤️+by+Aayush+Vaghela&color=red&style=gradient)
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://buildestate.vercel.app">
+          <img src="https://img.shields.io/badge/🚀_Try_Live_Demo-4285F4?style=for-the-badge&logoColor=white" alt="Try Live Demo">
+        </a>
+      </td>
+      <td align="center">
+        <a href="./COMPLETE_PROJECT_SETUP_GUIDE.md">
+          <img src="https://img.shields.io/badge/Read_Full_Docs-34A853?style=for-the-badge&logoColor=white" alt="Read Documentation">
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/AAYUSH412/Real-Estate-Website/issues">
+          <img src="https://img.shields.io/badge/🐛_Report_Issues-EA4335?style=for-the-badge&logoColor=white" alt="Report Issues">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-  <p><strong>© 2025 BuildEstate. All Rights Reserved.</strong></p>
-  <p><em>Transforming Real Estate with AI-Powered Intelligence</em></p>
-  
-[![Stars](https://img.shields.io/github/stars/AAYUSH412/Real-Estate-Website?style=social)](https://github.com/AAYUSH412/Real-Estate-Website/stargazers)
-[![Forks](https://img.shields.io/github/forks/AAYUSH412/Real-Estate-Website?style=social)](https://github.com/AAYUSH412/Real-Estate-Website/network/members)
-[![Watchers](https://img.shields.io/github/watchers/AAYUSH412/Real-Estate-Website?style=social)](https://github.com/AAYUSH412/Real-Estate-Website/watchers)
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=888888&center=true&vCenter=true&width=600&lines=Built+with+❤️+for+the+real+estate+industry;Happy+coding!+🎉" alt="Footer Message">
+</p>
 
 </div>

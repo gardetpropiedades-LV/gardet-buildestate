@@ -1,6 +1,7 @@
 # Contributing to BuildEstate
 
 
+
 Thank you for considering contributing to BuildEstate! This document outlines the process for contributing to this project.
 
 ## Code of Conduct

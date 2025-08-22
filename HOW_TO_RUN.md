@@ -1,6 +1,7 @@
 # 🚀 How to Run BuildEstate Project - Complete Guide
 
 
+
 This guide provides step-by-step instructions to run the complete BuildEstate real estate platform locally.
 
 ## 📋 Project Components
