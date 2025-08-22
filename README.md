@@ -87,9 +87,9 @@
 <summary><h3>🎯 Key Features</h3></summary>
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
+<table>
+<tr>
+<td width="50%">
         
 ### 🔍 **Smart Property Search**
 - AI-enhanced search algorithms
@@ -108,9 +108,8 @@
 - Role-based access control
 - Multi-factor authentication ready
 - Data encryption & privacy
-
-      </td>
-      <td width="50%">
+</td>
+<td width="50%">
 
 ### 📱 **Modern User Experience**
 - Responsive design across all devices
@@ -130,9 +129,9 @@
 - Appointment scheduling
 - Lead management tools
 
-      </td>
-    </tr>
-  </table>
+</td>
+</tr>
+</table>
 </div>
 
 
