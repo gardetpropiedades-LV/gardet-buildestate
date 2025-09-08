@@ -6,9 +6,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start:prod": "node server-production.js",
     "dev": "nodemon server.js",
-    "build": "npm install",
-    "render-build": "npm install && npm run build"
+    "build": "echo 'Build completed'",
+    "render-build": "npm install",
+    "test": "echo 'No tests specified' && exit 0"
   },
   "author": "Aayush Vaghela",
   "license": "ISC",

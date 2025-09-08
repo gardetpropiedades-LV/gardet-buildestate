@@ -20,18 +20,53 @@ dotenv.config();
 
 const app = express();
 
-// Rate limiting to prevent abuse
+// Configure trust proxy for different environments
+if (process.env.NODE_ENV === 'production') {
+  // Trust first proxy (Render, Heroku, etc.)
+  app.set('trust proxy', 1);
+} else {
+  // In development, trust local proxies
+  app.set('trust proxy', 'loopback');
+}
+
+// Enhanced rate limiting configuration
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 500, // Limit each IP to 500 requests per window
-  standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-  message: { success: false, message: 'Too many requests, please try again later.' }
+  max: process.env.NODE_ENV === 'production' ? 500 : 1000, // More lenient in development
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { success: false, message: 'Too many requests, please try again later.' },
+  // Skip rate limiting for successful requests in development
+  skip: (req, res) => {
+    // Skip for health checks and in development for successful requests
+    if (req.path === '/status' || req.path === '/') return true;
+    return process.env.NODE_ENV === 'development' && res.statusCode < 400;
+  },
+  // Custom key generator to handle proxy scenarios
+  keyGenerator: (req) => {
+    // Use X-Forwarded-For in production, fallback to IP
+    const forwarded = req.headers['x-forwarded-for'];
+    if (forwarded && process.env.NODE_ENV === 'production') {
+      return forwarded.split(',')[0].trim();
+    }
+    return req.ip;
+  }
 });
 
 // Security middlewares
 app.use(limiter);
-app.use(helmet());
+app.use(helmet({
+  // Configure helmet for proxy environments
+  contentSecurityPolicy: process.env.NODE_ENV === 'production' ? {
+    directives: {
+      defaultSrc: ["'self'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      scriptSrc: ["'self'"],
+      imgSrc: ["'self'", "data:", "https:"],
+    },
+  } : false,
+  crossOriginEmbedderPolicy: false
+}));
 app.use(compression());
 
 // Middleware
@@ -113,7 +148,11 @@ app.get('/status', (req, res) => {
     time: new Date().toISOString(),
     uptime: process.uptime(),
     version: process.env.npm_package_version || '1.0.0',
-    environment: process.env.NODE_ENV || 'development'
+    environment: process.env.NODE_ENV || 'development',
+    trustProxy: app.get('trust proxy'),
+    clientIP: req.ip,
+    forwardedFor: req.headers['x-forwarded-for'] || 'not-set',
+    userAgent: req.headers['user-agent'] || 'not-set'
   });
 });
 
