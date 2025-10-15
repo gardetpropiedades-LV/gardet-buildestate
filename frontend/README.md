@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🌐 BuildEstate Frontend
+# 🌐 Gardet Frontend
 
-### Modern React Application for Real Estate Platform
+### Plataforma inmobiliaria moderna para Gardet Propiedades
 
 [![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5+-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3+-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-latest-0055FF?style=flat-square&logo=framer)](https://www.framer.com/motion/)
 
-[🚀 Live Demo](https://buildestate.vercel.app) • [📚 Documentation](../README.md) • [🐛 Report Issues](https://github.com/AAYUSH412/Real-Estate-Website/issues)
+[📚 Documentación general](../README.md) • [🐛 Reportar issues](https://github.com/AAYUSH412/Real-Estate-Website/issues)
 
 </div>
 
@@ -82,23 +82,35 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
+### ✅ Estado actual
+
+- `npm run build` (Vite) — ✅ compilación verificada el 2025-10-15.
+- `npm run dev -- --port 5173` — levanta el frontend local sin errores de consola.
+- La página de inicio muestra el header Gardet, menú responsive y hero en español.
+
 ### Environment Setup
 
 Create a `.env.local` file in the frontend directory:
 
 ```bash
-# API Configuration
-VITE_API_URL=http://localhost:4000/api
-VITE_APP_NAME=BuildEstate
+# Configuración base (Gardet)
+VITE_API_BASE_URL=http://localhost:4000
+VITE_APP_NAME=Gardet
+VITE_BRAND_NAME=Gardet
+VITE_THEME_COLOR=#C7A046
 
-# External Services (Optional)
-VITE_IMAGEKIT_URL=your-imagekit-url
-VITE_GOOGLE_MAPS_API_KEY=your-google-maps-key
-
-# Application Settings
-VITE_APP_VERSION=2.1.0
-VITE_ENVIRONMENT=development
+# Servicios externos (opcional)
+VITE_IMAGEKIT_URL=tu-url-de-imagekit
+VITE_GOOGLE_MAPS_API_KEY=tu-google-maps-key
 ```
+
+---
+
+### 🎨 Brand Assets
+
+- `src/assets/logo-gardet.svg` es un logo vectorial liviano pensado como placeholder.
+- Mantén el alto visual cercano a 30&nbsp;px dentro del navbar para conservar la proporción.
+- Si cuentas con la marca oficial en otro formato, reemplaza el SVG y actualiza la importación correspondiente.
 
 ---
 

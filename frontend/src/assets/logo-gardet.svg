@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Gardet marca</title>
+  <desc id="desc">Isotipo dorado con forma de llave y letra G para Gardet Propiedades</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D27D" />
+      <stop offset="40%" stop-color="#C7A046" />
+      <stop offset="100%" stop-color="#8A6B1F" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="url(#grad)" />
+  <path
+    fill="#FFFFFF"
+    d="M83 61c0 15.464-12.536 28-28 28s-28-12.536-28-28 12.536-28 28-28c6.7 0 12.86 2.337 17.68 6.226l-6.86 8.215c-3.02-2.523-6.856-3.941-10.82-3.941-9.389 0-17 7.611-17 17s7.611 17 17 17c6.992 0 12.998-4.199 15.618-10.209H55v-11.262h28V61z"
+  />
+  <path
+    fill="#FFFFFF"
+    d="M92 36h-13.5a4 4 0 0 0-3.172 1.587l-8.034 10.687 9.067 7.042 8.139-10.826H92z"
+  />
+</svg>
