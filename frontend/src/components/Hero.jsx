@@ -6,25 +6,25 @@ import heroimage from "../assets/images/heroimage.png";
 import { RadialGradient } from "react-text-gradients";
 
 const popularLocations = [
-  "Mumbai",
-  "Delhi", 
-  "Bangalore",
-  "Hyderabad",
-  "Chennai"
+  "Buenos Aires",
+  "Ciudad de México",
+  "Madrid",
+  "Barcelona",
+  "Santiago"
 ];
 
 const quickFilters = [
-  { label: "Apartments", icon: Home, count: "2.5k+" },
-  { label: "Houses", icon: Home, count: "1.8k+" },
+  { label: "Departamentos", icon: Home, count: "2.5k+" },
+  { label: "Casas", icon: Home, count: "1.8k+" },
   { label: "Villas", icon: Home, count: "750+" },
-  { label: "Studios", icon: Home, count: "1.2k+" }
+  { label: "Estudios", icon: Home, count: "1.2k+" }
 ];
 
 const stats = [
-  { icon: Users, value: "50K+", label: "Happy Customers", color: "from-blue-500 to-cyan-500" },
-  { icon: Home, value: "25K+", label: "Properties Listed", color: "from-green-500 to-emerald-500" },
-  { icon: Star, value: "4.9", label: "Average Rating", color: "from-yellow-500 to-orange-500" },
-  { icon: Shield, value: "100%", label: "Verified Properties", color: "from-purple-500 to-pink-500" }
+  { icon: Users, value: "50K+", label: "Familias acompañadas", color: "from-brand-500 to-brand-700" },
+  { icon: Home, value: "2.500+", label: "Propiedades activas", color: "from-brand-400 to-brand-600" },
+  { icon: Star, value: "4.9", label: "Calificación promedio", color: "from-amber-400 to-brand-500" },
+  { icon: Shield, value: "100%", label: "Operaciones verificadas", color: "from-emerald-400 to-brand-600" }
 ];
 
 // Enhanced animation variants
@@ -97,8 +97,8 @@ const Hero = () => {
       {/* Enhanced Background with Multiple Layers */}
       <div className="absolute inset-0">
         {/* Base gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50"></div>
-        
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-amber-50/40 to-stone-50"></div>
+
         {/* Hero image with overlay */}
         <motion.div
           initial={{ opacity: 0, scale: 1.1 }}
@@ -112,21 +112,21 @@ const Hero = () => {
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-white/10" />
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/10 via-transparent to-purple-900/10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-900/15 via-transparent to-brand-600/10" />
         </motion.div>
 
         {/* Floating background elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <motion.div
             animate={floatingAnimation}
-            className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"
+            className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-br from-brand-200/25 to-brand-400/20 rounded-full blur-3xl"
           />
           <motion.div
             animate={{
               y: [10, -10, 10],
               transition: { duration: 8, repeat: Infinity, ease: "easeInOut" }
             }}
-            className="absolute top-40 right-20 w-96 h-96 bg-gradient-to-br from-purple-400/15 to-pink-400/15 rounded-full blur-3xl"
+            className="absolute top-40 right-20 w-96 h-96 bg-gradient-to-br from-brand-300/20 via-brand-200/15 to-brand-500/15 rounded-full blur-3xl"
           />
           <motion.div
             animate={{
@@ -134,7 +134,7 @@ const Hero = () => {
               x: [-10, 10, -10],
               transition: { duration: 10, repeat: Infinity, ease: "easeInOut" }
             }}
-            className="absolute bottom-20 left-1/3 w-80 h-80 bg-gradient-to-br from-green-400/10 to-emerald-400/10 rounded-full blur-3xl"
+            className="absolute bottom-20 left-1/3 w-80 h-80 bg-gradient-to-br from-brand-200/20 to-emerald-300/10 rounded-full blur-3xl"
           />
         </div>
 
@@ -145,7 +145,7 @@ const Hero = () => {
               key={i}
               animate={sparkleAnimation}
               transition={{ delay: i * 0.5 }}
-              className={`absolute w-6 h-6 text-yellow-400/60 ${
+              className={`absolute w-6 h-6 text-brand-400/60 ${
                 i % 2 === 0 ? 'top-1/4' : 'top-3/4'
               } ${
                 i % 3 === 0 ? 'left-1/4' : i % 3 === 1 ? 'left-1/2' : 'left-3/4'
@@ -172,40 +172,40 @@ const Hero = () => {
               className="text-center"
             >
               {/* Trust Badge */}
-              <motion.div 
+              <motion.div
                 variants={itemVariants}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-white/90 backdrop-blur-md text-blue-700 rounded-full text-sm font-semibold mb-8 shadow-lg border border-blue-100"
+                className="inline-flex items-center gap-2 rounded-full border border-brand-100 bg-white/90 px-6 py-3 text-sm font-semibold text-brand-800 shadow-lg backdrop-blur-md mb-8"
               >
-                <Shield className="w-4 h-4" />
-                <span>Trusted by 50,000+ families</span>
+                <Shield className="w-4 h-4 text-brand-600" />
+                <span>Con la confianza de más de 50.000 familias</span>
                 <div className="flex items-center gap-1">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+                    <Star key={i} className="h-3 w-3 fill-brand-400 text-brand-400" />
                   ))}
                 </div>
               </motion.div>
 
               {/* Main Heading */}
               <motion.div variants={itemVariants} className="mb-8">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-[0.9]">
+                <h1 className="mb-6 text-5xl font-bold leading-[0.9] sm:text-6xl md:text-7xl">
                   <RadialGradient
-                    gradient={["circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%"]}
+                    gradient={["circle, rgba(199,160,70,1) 0%, rgba(149,117,50,1) 100%"]}
                   >
-                    Find Your Perfect
+                    Descubrí
                   </RadialGradient>
                   <br />
-                  <span className="text-gray-900 bg-gradient-to-r from-gray-800 via-gray-900 to-black bg-clip-text text-transparent">
-                    Dream Home
+                  <span className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 bg-clip-text text-transparent">
+                    tu hogar ideal
                   </span>
                 </h1>
 
-                <motion.p 
+                <motion.p
                   variants={itemVariants}
-                  className="text-gray-700 text-xl sm:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed font-medium"
+                  className="mx-auto mb-12 max-w-3xl text-xl font-medium leading-relaxed text-gray-700 sm:text-2xl"
                 >
-                  Discover exceptional properties in prime locations with our 
-                  <span className="text-blue-600 font-semibold"> AI-powered search</span> and 
-                  <span className="text-purple-600 font-semibold"> expert guidance</span>
+                  Conectamos familias con propiedades excepcionales en ubicaciones premium gracias a nuestra
+                  <span className="font-semibold text-brand-600"> búsqueda asistida por IA</span> y el
+                  <span className="font-semibold text-brand-700"> acompañamiento de especialistas Gardet</span>.
                 </motion.p>
               </motion.div>
 
@@ -225,8 +225,8 @@ const Hero = () => {
                         onClick={() => setPropertyType(filter.label)}
                         className={`px-6 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 flex items-center gap-2 ${
                           propertyType === filter.label
-                            ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg'
-                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                            ? 'bg-gradient-to-r from-brand-500 to-brand-700 text-white shadow-lg'
+                            : 'bg-brand-50 text-brand-700 hover:bg-brand-100'
                         }`}
                       >
                         <filter.icon className="w-4 h-4" />
@@ -239,8 +239,8 @@ const Hero = () => {
                   {/* Search Input */}
                   <div className="flex flex-col lg:flex-row gap-4">
                     <div className="relative flex-1">
-                      <MapPin className={`absolute left-4 top-1/2 transform -translate-y-1/2 transition-colors duration-300 ${
-                        isSearchFocused ? 'text-blue-500' : 'text-gray-400'
+                      <MapPin className={`absolute left-4 top-1/2 -translate-y-1/2 transform transition-colors duration-300 ${
+                        isSearchFocused ? 'text-brand-500' : 'text-gray-400'
                       }`} />
                       <input
                         type="text"
@@ -251,34 +251,31 @@ const Hero = () => {
                           setIsSearchFocused(true);
                         }}
                         onBlur={() => setIsSearchFocused(false)}
-                        placeholder="Enter city, locality, or landmark..."
-                        className="w-full pl-12 pr-6 py-4 rounded-2xl border-2 border-gray-200 bg-white/90 
-                          focus:border-blue-500 focus:ring-4 focus:ring-blue-500/20 transition-all duration-300 
-                          text-lg placeholder-gray-500 font-medium"
+                        placeholder="Ingresá ciudad, barrio o referencia..."
+                        className="w-full rounded-2xl border-2 border-gray-200 bg-white/90 pl-12 pr-6
+                          text-lg font-medium placeholder-gray-500 transition-all duration-300
+                          focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20"
                       />
                     </div>
-                    
+
                     <div className="flex gap-3">
                       <motion.button
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
-                        className="px-6 py-4 bg-gray-100 text-gray-700 rounded-2xl hover:bg-gray-200 
-                          transition-all flex items-center gap-2 font-medium"
+                        className="flex items-center gap-2 rounded-2xl bg-brand-50 px-6 py-4 font-medium text-brand-800 transition-all hover:bg-brand-100"
                       >
                         <Filter className="w-5 h-5" />
-                        <span className="hidden sm:inline">Filters</span>
+                        <span className="hidden sm:inline">Filtros</span>
                       </motion.button>
-                      
+
                       <motion.button
                         onClick={() => handleSubmit()}
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
-                        className="px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 
-                          text-white rounded-2xl hover:shadow-2xl transition-all flex items-center gap-3 
-                          font-bold text-lg shadow-xl"
+                        className="flex items-center gap-3 rounded-2xl bg-gradient-to-r from-brand-500 via-brand-600 to-brand-700 px-8 py-4 text-lg font-bold text-white shadow-xl transition-all hover:shadow-2xl"
                       >
                         <Search className="w-5 h-5" />
-                        <span>Search Properties</span>
+                        <span>Buscar propiedades</span>
                         <ArrowRight className="w-5 h-5" />
                       </motion.button>
                     </div>
@@ -297,13 +294,13 @@ const Hero = () => {
                       >
                         <div className="p-6">
                           <div className="flex items-center justify-between mb-4">
-                            <h3 className="text-lg font-bold text-gray-900 flex items-center gap-2">
-                              <TrendingUp className="w-5 h-5 text-orange-500" />
-                              Popular Locations
+                            <h3 className="flex items-center gap-2 text-lg font-bold text-gray-900">
+                              <TrendingUp className="h-5 w-5 text-brand-500" />
+                              Zonas destacadas
                             </h3>
-                            <span className="text-sm text-gray-500">Choose from trending areas</span>
+                            <span className="text-sm text-gray-500">Elegí entre los barrios más buscados</span>
                           </div>
-                          
+
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             {popularLocations.map((location, index) => (
                               <motion.button
@@ -312,25 +309,20 @@ const Hero = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: index * 0.1 }}
                                 onClick={() => handleLocationClick(location)}
-                                className="flex items-center justify-between p-4 hover:bg-blue-50 rounded-xl 
-                                  transition-all duration-300 text-left group border border-transparent 
-                                  hover:border-blue-200 hover:shadow-md"
+                                className="group flex items-center justify-between rounded-xl border border-transparent p-4 text-left transition-all duration-300 hover:border-brand-200 hover:bg-brand-50 hover:shadow-md"
                               >
                                 <div className="flex items-center gap-3">
-                                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 
-                                    rounded-full flex items-center justify-center">
+                                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-brand-700">
                                     <MapPin className="w-5 h-5 text-white" />
                                   </div>
                                   <div>
-                                    <span className="font-semibold text-gray-900 group-hover:text-blue-600 
-                                      transition-colors">{location}</span>
+                                    <span className="font-semibold text-gray-900 transition-colors group-hover:text-brand-700">{location}</span>
                                     <div className="text-xs text-gray-500">
-                                      {Math.floor(Math.random() * 500) + 100}+ properties
+                                      {Math.floor(Math.random() * 500) + 100}+ propiedades
                                     </div>
                                   </div>
                                 </div>
-                                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 
-                                  group-hover:translate-x-1 transition-all duration-300" />
+                                <ArrowRight className="h-5 w-5 text-gray-400 transition-all duration-300 group-hover:translate-x-1 group-hover:text-brand-600" />
                               </motion.button>
                             ))}
                           </div>

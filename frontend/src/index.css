@@ -3,9 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Gardet brand tokens */
+:root {
+  --brand-color: #c7a046;
+  --brand-color-dark: #957532;
+  --brand-color-light: #f8edcd;
+}
+
 /* Add to your global CSS or relevant component */
-
-
 .filter-group {
   @apply space-y-3;
 }
